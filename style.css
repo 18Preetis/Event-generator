@@ -1,52 +1,38 @@
-.meme-generator{
-  font-family: "Roboto,sans-serif";
-  text-align: center;
-}
 
-.meme-generator .generate-meme-btn {
-  
-  border: none;
-  background: transparent;
-  font-size: 50px;
-  font-weight: 800;
-  -webkit-text-stroke: 3px blueviolet;
-  background-size: cover;
-  background-clip: text;
-  background-image : url("https://media.istockphoto.com/id/695551352/photo/3d-rendering-abstract-background-of-multi-colored-rounded-shapes.jpg?s=1024x1024&w=is&k=20&c=mP7hmzBu_dGkzYtNwdvDLNHuyicLogn8tLcGUdH6TIo=");
- color:transparent;
-  -webkit-background-clip: text;
-  border-left: 4px solid #222;
-  border-right: 4px solid #222;
-padding:8px 20px;
-   transition: all 400ms ease;
-  cursor: pointer;
-}
-
-.meme-generator .generate-meme-btn:hover{
-
-  padding:8px 36 px;
-  border-left: 8px #222;
-  border-right:8px #222;
-  letter-spacing: 3px;
-}
-
-
-
-body:before, body:after {
-    content: "";
-    position: fixed;
-    background: blueviolet;
-    left: 0;
-    right: 0;
-    height: 10px;
-}
-body:before {
-    top: 0;
-}
-body:after {
-    bottom: 0;
-}
 body {
-    border-left: 2px solid black;
-    border-right: 2px solid black;  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
 }
+
+header {
+    background-color: #ff9800;
+    color: white;
+    padding: 20px;
+}
+
+.event-details, .invite {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1ebe5b;
+}
+  
